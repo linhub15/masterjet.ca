@@ -14,5 +14,6 @@ defaults:
   - # All Pages have layout: default
     scope:
       path: ""
-    value:
-      layout: default
+      type: "pages"
+    values:
+      layout: "default"
