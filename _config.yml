@@ -13,7 +13,9 @@ phone: 780-239-9979
 email: amawer@shaw.ca
 formspree:
 
-exclude: _site-text
+exclude: 
+  -
+    _site-text
 defaults:
   - # All Pages have layout: default
     scope:
