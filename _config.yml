@@ -4,17 +4,16 @@ description: >-
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 keywords: >-
-  Hot pressure washing, power washing, Commercial building washes, 
+  Pressure washing, power washing, Commercial building washes, 
   pavement cleaning, concrete cleaning, gum spot removal, dumpster cleaning, 
   compactor cleaning, building exterior cleaning, warehouse cleaning,
   residential building cleaning
 url: ""
-phone: 
+phone: 780-239-9979
 email: amawer@shaw.ca
 formspree:
 
 exclude: _site-text
-
 defaults:
   - # All Pages have layout: default
     scope:

@@ -1,4 +1,28 @@
+--- 
+title: Contact permalink: /contact/
 ---
-title: Contact
-permalink: /contact/
----
+
+<section>
+    {% include contact-us.html %}
+</section>
+
+<section>
+    <div class="container">
+        <form class="mx-auto" style="max-width: 600px;">
+            <div class="row my-3">
+                <input class="col form-control mr-3" type="text" name="" id="Name" placeholder="Full Name">
+                <input class="col form-control" type="text" name="" id="Phone" placeholder="Phone Number">
+            </div>
+            <div class="row my-3">
+                <input class="form-control" type="text" name="" id="Email" placeholder="Email">
+            </div>
+            <div class="row my-3">
+                <textarea class="form-control"> </textarea>
+            </div>
+
+            <div class="row my-3">
+                <button type="submit" class="btn btn-primary mx-auto">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
