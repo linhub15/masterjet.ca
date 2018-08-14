@@ -2,13 +2,6 @@
 
 ## We're pressure washing masters
 
-1. Building Washes with window cleaning service
-2. Sidewalks
-3. Dumpsters / Compactors
-4. Drive-Thrus
-5. Warehouse Floors & Walls
-
-
 * Commercial buildings
     - We take care of restaurants, retail stores, strip mall exteriors
 * Residential buildings
