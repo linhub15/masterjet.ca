@@ -2,9 +2,9 @@
 
 ## We're pressure washing masters
 
-* Commercial buildings
+* Commercial Buildings
     - We take care of restaurants, retail stores, strip mall exteriors
-* Residential buildings
+* Residential Buildings
     - Whether it's a condominium complex or a single house we'll get the job done
 * Warehouse Exteriors & Interiors
     - From Weldingshops to oil stains to warehouse floors and walls

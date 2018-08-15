@@ -7,5 +7,5 @@ Master Jet Pressure Washing Ltd. is an industry leader in power and hot pressure
 
 Master Jet’s customers include some of Alberta’s largest retail businesses, restaurant chains, commercial businesses, and property management companies. We use phosphate-free cleaning products and take special care to block storm drains to avoid grease or oil entering the storm water system.
 
-Master Jet is owned and operated by Andrew Mawer whose aim has always been to service customers promptly and to the highest standard. Andrew personally supervises every project, ensuring a quality standards that are second to none in exterior retail and commercial cleaning.
+Master Jet is owned and operated by Andrew Mawer whose aim has always been to service customers promptly and to the highest standard. Andrew personally supervises every project, ensuring quality standards that are second to none in exterior retail and commercial cleaning.
 
