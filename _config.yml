@@ -16,6 +16,8 @@ formspree:
 exclude: 
   -
     _site-text
+  -
+    _designs
 defaults:
   - # All Pages have layout: default
     scope:
