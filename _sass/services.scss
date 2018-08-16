@@ -1,16 +1,18 @@
 #weAreMasters > div > ul {
-    list-style-image: url("#{$base-url}/images/tick.svg");
-
+    padding-left: 0;
+    list-style-type: none;
     li {
+        background-image: url("#{$base-url}/images/tick.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 65px;
         height: 55px;
         margin-bottom: 20px;
         h3 {
-            position: relative;
-            top: -50px;
-            font-size: 1.5em;
+            font-size: 1.4em;
             text-align: left;
-            vertical-align: top;
-            margin: 0;
+            margin-bottom: 0;
         }
         p {
             margin-bottom: 0;
