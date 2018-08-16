@@ -1,0 +1,14 @@
+nav.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: $bg-primary;
+
+    a.navbar-brand > img {
+        max-height: 80px;
+    }
+
+    a.nav-link {
+        color: $near-white;
+    }
+}
+
