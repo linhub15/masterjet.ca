@@ -1,0 +1,19 @@
+#weAreMasters > div > ul {
+    list-style-image: url("#{$base-url}/images/tick.svg");
+
+    li {
+        height: 55px;
+        margin-bottom: 20px;
+        h3 {
+            position: relative;
+            top: -50px;
+            font-size: 1.5em;
+            text-align: left;
+            vertical-align: top;
+            margin: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

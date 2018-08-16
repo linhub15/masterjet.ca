@@ -6,6 +6,9 @@ nav.navbar {
     a.navbar-brand > img {
         max-height: 80px;
     }
+    button > img {
+        color: $near-white;
+    }
 
     a.nav-link {
         color: $near-white;

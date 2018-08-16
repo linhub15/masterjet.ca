@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/images/master-jet-logo.png" /></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+  <button class="navbar-toggler mj-text-near-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
     aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    {% include icons/bars.html %}
   </button>
+  <a class="navbar-brand mx-auto ml-lg-5" href="{{ site.url }}"><img src="{{ site.url }}/images/master-jet-logo-white.png" /></a>
   <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-lg-auto text-center">
       <li class="nav-item mx-md-5">
-        <a class="nav-link" href="{{ site.url }}">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{ site.url }}">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item mx-md-5">
         <a class="nav-link" href="{{ site.url }}/services/">Services</a>

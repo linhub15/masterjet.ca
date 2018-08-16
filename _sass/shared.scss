@@ -10,6 +10,9 @@ h1,h2,h3,h4,h5 {
 p {
     margin-left: auto;
     margin-right: auto;
+}
+
+.container {
     max-width: 800px;
 }
 
@@ -30,18 +33,19 @@ div.center-btn {
     text-align: center;
 }
 
-a.mj-btn {
+.mj-btn {
     border: 0;
     border-radius: 45px;
-    width: 180px;
+    min-width: 170px;
     line-height: 40px;
-    vertical-align: middle;
     transition: 0.3ms;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-a.mj-btn-primary {
+.mj-btn-primary {
     background-color: $btn-primary;
     color: $near-white;
 
