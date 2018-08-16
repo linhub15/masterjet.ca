@@ -1,12 +1,25 @@
 ---
 ---
 
+$base-url: "{{ site.url }}";
 $bg-primary: #003157;
 $bg-secondary: #E7EAEE;
-$near-white: #F8F9FA;
-$action-primary: #FF8812;
-$action-secondary: #005BA0; 
-$text-underlay: #9A9A9A;
+$btn-primary: #FF8812;
+$btn-secondary: #005BA0; 
 
+
+$near-white: #F8F9FA;
+$text-primary: #052B78;
+$text-secondary: #484848;
+
+// Text Underlay
+$text-underlay: #9A9A9A;
+$gray: #9A9A9A;
+$alpha: 0.3;
+
+@import "shared";
 @import "nav";
 @import "index";
+@import "services";
+@import "portfolio";
+@import "contact";

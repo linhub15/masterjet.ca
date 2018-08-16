@@ -1,0 +1,30 @@
+.landing-hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("#{$base-url}/images/index/index-splash.jpg");
+    background-position: center center;
+    width: auto;
+    height: 80%;
+    
+    .container {
+        height: 100%;
+        text-align: center;
+    }
+
+    div.text-underlay {
+        text-align: center;
+        color: $near-white;
+        position: relative;
+        top: 40%;
+        background-color: rgba($text-underlay,$alpha);
+    }
+    
+    .hero-button {
+        position: relative;
+        top: 50%;
+    }
+}
+
+#aboutUs {
+    text-align: justify;
+}

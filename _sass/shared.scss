@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    width: auto;
+    color: $text-secondary;
+}
+h1,h2,h3,h4,h5 {
+    text-align: center;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.mj-bg-primary {
+    background-color: $bg-primary;
+}
+
+.mj-text-near-white {
+    color: $near-white;
+}
+
+.mj-text-primary {
+    color: $text-primary;
+}
+
+div.center-btn {
+    margin: 0 auto;
+    text-align: center;
+}
+
+a.mj-btn {
+    border: 0;
+    border-radius: 45px;
+    width: 180px;
+    line-height: 40px;
+    vertical-align: middle;
+    transition: 0.3ms;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a.mj-btn-primary {
+    background-color: $btn-primary;
+    color: $near-white;
+
+    &:hover {
+        background-color: darken($btn-primary, 11%);
+    }
+}
+
+a.mj-btn-secondary {
+    background-color: $btn-secondary;
+    color: $near-white;
+
+    &:hover {
+        background-color: darken($btn-secondary, 11%);
+    }
+}
+
+section.footer {
+    line-height: 100px;
+    color: $near-white;
+    background-color: $bg-primary;
+
+    p {
+        margin-bottom: 0;
+    }
+}
