@@ -18,10 +18,19 @@
         top: 40%;
         background-color: rgba($text-underlay,$alpha);
     }
-    
+
     .hero-button {
         position: relative;
         top: 50%;
+    }
+
+    @media screen and (max-width: 600px) {
+        div.text-underlay {
+            top: 25%;
+        }
+        .hero-button {
+            top: 35%;
+        }
     }
 }
 
