@@ -9,16 +9,16 @@ permalink: /contact/
 <section>
     <div class="container py-5">
         <h2 class="mb-5">Get a Quote</h2>
-        <form class="mx-auto" style="max-width: 600px;">
+        <form class="mx-auto" style="max-width: 600px;" action="https://formspree.io/amawer@shaw.ca" method="POST">
             <div class="row my-3">
-                <input class="col form-control mr-3" type="text" name="" id="Name" placeholder="Full Name">
-                <input class="col form-control" type="text" name="" id="Phone" placeholder="Phone Number">
+                <input class="col form-control mr-3" type="text" name="Name" id="Name" placeholder="Full Name" required>
+                <input class="col form-control" type="text" name="Phone" id="Phone" placeholder="Phone Number" required>
             </div>
             <div class="row my-3">
-                <input class="form-control" type="email" name="" id="Email" placeholder="Email">
+                <input class="form-control" type="email" name="Email" id="Email" placeholder="Email">
             </div>
             <div class="row my-3">
-                <textarea class="form-control"> </textarea>
+                <textarea class="form-control" name="Description" placeholder="Let us know what you need cleaned..."></textarea>
             </div>
             <div class="row my-3">
                 <button type="submit" class="btn mj-btn mj-btn-primary mx-auto">Submit</button>
