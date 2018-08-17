@@ -1,7 +1,7 @@
 .landing-hero {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("#{$base-url}/images/index/index-splash.jpg");
+    background-image: url("/images/index/index-splash.jpg");
     background-position: center right;
     width: auto;
     height: 80%;
@@ -37,5 +37,4 @@
 
 #contactUs {
     color: $near-white;
-    background-image: url(#{$base-url}/images/index/);
 }

@@ -1,0 +1,11 @@
+section#portfolioSplash {
+    background-image: url(#{$base-url}/images/portfolio/portfolio-splash.jpg);
+}
+
+#gallery {
+
+    img {
+        max-width: 270px;
+        max-height: 500px;
+    }
+}
