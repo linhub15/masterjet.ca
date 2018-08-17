@@ -71,6 +71,7 @@ div.center-btn {
 
     &:hover {
         background-color: darken($btn-primary, 11%);
+        color: $near-white;
     }
 }
 
