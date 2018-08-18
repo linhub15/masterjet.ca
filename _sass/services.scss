@@ -25,19 +25,17 @@ section#servicesSplash {
         }
     }
 }
-.card-deck .mj-card{
-    background-color: rgba($text-underlay, $alpha);       
-}
-
-#setsUsApart h2, .card-deck .mj-card{
-    color:$near-white;
-}
 
 section#setsUsApart {
     background-image: url("/images/services-what-sets-us-apart.jpg");
     background-position: center top;
     background-size: cover;
 
+    .mj-card{
+        color:$near-white;
+        background-color: rgba($text-underlay, $alpha);
+        border: 0;     
+    }
     .container {
         max-width: 1000px;
     }

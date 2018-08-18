@@ -12,6 +12,11 @@ nav.navbar {
 
     a.nav-link {
         color: $near-white;
+        transition: ease 0.2s;
+
+        &:hover {
+            color: darken( $near-white, 20%);
+        }
     }
 }
 
