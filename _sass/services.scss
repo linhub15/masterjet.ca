@@ -7,7 +7,7 @@ section#servicesSplash {
     list-style-type: none;
     max-width: 510px;
     li {
-        background-image: url("#{$base-url}/images/tick.svg");
+        background-image: url("/images/tick.svg");
         background-size: auto;
         background-repeat: no-repeat;
         background-position: top left;
@@ -30,9 +30,9 @@ section#setsUsApart {
     background-image: url("/images/services-what-sets-us-apart.jpg");
     background-position: center top;
     background-size: cover;
+    color:$near-white;
 
     .mj-card{
-        color:$near-white;
         background-color: rgba($text-underlay, $alpha);
         border: 0;     
     }

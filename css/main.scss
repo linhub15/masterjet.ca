@@ -1,7 +1,5 @@
 ---
 ---
-
-$base-url: "{{ site.url }}";
 $bg-primary: #003157;
 $bg-secondary: #E7EAEE;
 $btn-primary: #FF8812;
@@ -18,7 +16,6 @@ $gray: #9A9A9A;
 $alpha: 0.3;
 
 @import "shared";
-@import "nav";
 @import "index";
 @import "services";
 @import "portfolio";
