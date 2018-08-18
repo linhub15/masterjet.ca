@@ -9,13 +9,13 @@ keywords: >-
 url: "masterjet.ca"
 phone: 780-239-9979
 email: amawer@shaw.ca
-formspree:
 
 exclude: 
   -
     _site-text
   -
     _designs
+    
 defaults:
   - # All Pages have layout: default
     scope:
