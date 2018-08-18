@@ -117,4 +117,20 @@ a.mj-btn-secondary {
     p {
         margin-bottom: 0;
     }
+
+    .citation {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 2em;
+        line-height: 1em;
+
+        a {
+            color: gray;
+            text-decoration: none;
+            transition: ease 0.2s;
+            &:hover {
+                color: darken(gray,10%);
+            } 
+        }
+    }
 }
