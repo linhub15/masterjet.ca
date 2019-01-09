@@ -3,10 +3,13 @@
         <div class="row">
             <a class="btn mj-btn mj-btn-secondary mx-auto" href="tel:{{ site.phone }}">{% include icons/phone.html %} <span>Phone <span itemprop="telephone">{{ site.phone }}</span></span></a>
             <a class="btn mj-btn mj-btn-secondary mx-auto" href="mailto:{{ site.email }}">{% include icons/envelope.html %} <span>Email <span itemprop="email">{{ site.email }}</span></span></a>
+            <a class="btn mj-btn mj-btn-secondary mx-auto" href="{{site.facebook}}">{% include icons/facebook.html %}<span>Facebook</span></a>
+        </div>
+        <div class="row mx-auto">
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
         </div>
         <div>
-                <p class="text-center">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
-                <p class="citation"><a href="/citation/">Citations</a></p>
+            <p class="citation"><a href="/citation/">Citations</a></p> 
         </div>
     </div>
 </div>
