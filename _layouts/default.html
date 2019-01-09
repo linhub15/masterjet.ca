@@ -6,12 +6,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114193508-5"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'UA-114193508-5');
+        gtag('config', 'UA-114193508-5');
     </script>
+
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ page.title }} - Master Jet</title>
@@ -21,10 +23,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.description }}">
     <meta name="keywords" content="{{ site.keywords }}">
+
+    <!-- Schama.org -->
     <meta property="og:title" content="{{site.title}}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{site.url}}" />
     <meta property="og:image" content="{{site.url}}/images/master-jet-logo.png" />
+    
     <meta name="google-site-verification" content="S5__RFnYQ9YGRVIUm6wIgTnc3KnsV6UQFEgUZqousNE" />
 
     <!-- Font -->
@@ -47,6 +52,11 @@
     }
     </script>
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body itemscope itemtype="http://schema.org/LocalBusiness">
     {% include site-nav.html %}
