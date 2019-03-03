@@ -1,3 +1,3 @@
-https://masterjet.ca/services/ https://masterjet.ca/edmonton-pressure-washing-service/
-https://masterjet.ca/edmonton-pressure-washing-services/ https://masterjet.ca/edmonton-pressure-washing-service/
-https://masterjet.ca/citation.html https://masterjet.ca/citation/
+/services/ /edmonton-pressure-washing-service/
+/edmonton-pressure-washing-services/ /edmonton-pressure-washing-service/
+/citation.html /citation/
