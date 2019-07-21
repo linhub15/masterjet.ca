@@ -5,28 +5,21 @@ html, body {
     background-color: $bg-secondary;
     font-family: 'Poppins', sans-serif;
 }
-h1,h2,h3,h4,h5 {
-    text-align: center;
-}
+h1,h2,h3,h4,h5 { text-align: center; }
+
 nav.navbar {
     padding-top: 0;
     padding-bottom: 0;
     background-color: $bg-primary;
 
-    a.navbar-brand > img {
-        max-height: 80px;
-    }
-    button > img {
-        color: $near-white;
-    }
+    a.navbar-brand > img { max-height: 80px; }
+    button > img { color: $near-white; }
 
     a.nav-link {
         color: $near-white;
         transition: ease 0.2s;
 
-        &:hover {
-            color: darken( $near-white, 20%);
-        }
+        &:hover { color: darken( $near-white, 20%); }
     }
 }
 
@@ -34,12 +27,13 @@ nav.navbar {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    height: 275px;
 
     h1 {
         color: $near-white;
-        line-height: 275px;
-        vertical-align: middle;
-        margin-bottom: 0;
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
     }
 }
 
@@ -48,21 +42,13 @@ p {
     margin-right: auto;
 }
 
-.container {
-    max-width: 800px;
-}
+.container { max-width: 800px; }
 
-.mj-bg-primary {
-    background-color: $bg-primary;
-}
+.mj-bg-primary { background-color: $bg-primary; }
 
-.mj-text-near-white {
-    color: $near-white;
-}
+.mj-text-near-white { color: $near-white; }
 
-.mj-text-primary {
-    color: $text-primary;
-}
+.mj-text-primary { color: $text-primary; }
 
 div.center-btn {
     margin-left: auto;
@@ -104,9 +90,7 @@ a.mj-btn-secondary {
     background-color: $btn-secondary;
     color: $near-white;
 
-    &:hover {
-        background-color: darken($btn-secondary, 11%);
-    }
+    &:hover { background-color: darken($btn-secondary, 11%); }
 }
 
 .footer {
@@ -114,9 +98,7 @@ a.mj-btn-secondary {
     color: $near-white;
     background-color: $bg-primary;
 
-    p {
-        margin-bottom: 0;
-    }
+    p { margin-bottom: 0; }
 
     .citation {
         text-align: center;
@@ -128,9 +110,8 @@ a.mj-btn-secondary {
             color: gray;
             text-decoration: none;
             transition: ease 0.2s;
-            &:hover {
-                color: darken(gray,10%);
-            } 
+            
+            &:hover { color: darken(gray,10%); } 
         }
     }
 }

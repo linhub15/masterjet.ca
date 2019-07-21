@@ -4,35 +4,39 @@
     background-image: url("/images/index/index-splash.jpg");
     background-position: center right;
     width: auto;
-    height: 80vh;
-    
-    .container {
-        height: 100%;
-        text-align: center;
-    }
-
-    div.text-underlay {
-        text-align: center;
-        color: $near-white;
-        position: relative;
-        top: 40%;
-        background-color: rgba($text-underlay,$alpha);
-    }
-
-    .hero-button {
-        position: relative;
-        top: 50%;
-    }
-
-    @media screen and (max-width: 600px) {
-        div.text-underlay {
-            top: 25%;
-        }
-        .hero-button {
-            top: 35%;
-        }
-    }
+    height: 42em;
+    min-height: 375px;
 }
+
+.container {
+    height: 100%;
+    text-align: center;
+}
+
+.text-underlay {
+    color: $near-white;
+    position: relative;
+    top: 25%;
+    background-color: #03203bc0;
+
+    padding: 2em;
+    border-radius: 5em;
+
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.hero-button {
+    position: relative;
+    top: 30%
+}
+
+@media screen and (max-width: 600px), screen and (max-height: 600px) {
+    .text-underlay { top: 10%; }
+    .text-underlay .d-desktop { display: none; }
+    .hero-button { top: 18%; }
+}
+
 
 #aboutUs {
     text-align: justify;
@@ -40,12 +44,6 @@
     background-image: url("/images/index/multi-drops.png");
 }
 
-#ourWork {
-    .container {
-        max-width: 1000px;
-    }
-}
+#ourWork .container { max-width: 1000px; }
 
-#contactUs {
-    color: $near-white;
-}
+#contactUs { color: $near-white; }
