@@ -12,6 +12,8 @@
     - Everything from parking lots, sidewalks, drive-thrus, dumpsters, compactors and more
 * Miscellaneous Washing
     - Have something tough to wash? We do graffiti removal, paint and gum spot removal just to name a few
+* Warehouse Painting
+    - Our team at Master Jet has handled many projects that require a wash and a full paint job. This can be a cost effective and efficient way of releasing your space. We have over 20 years of experience so ask us for a free quote.
 
 
 ## What sets us apart

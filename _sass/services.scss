@@ -1,6 +1,4 @@
-section#servicesSplash {
-    background-image: url("/images/services-splash.jpg");
-}
+section#servicesSplash { background-image: url("/images/services-splash.jpg"); }
 
 #weAreMasters > div > ul {
    padding-left:0;
@@ -15,7 +13,7 @@ section#servicesSplash {
         margin-bottom: 20px;
         h3 {
             font-size: 1.4em;
-            text-align: left;
+            text-align: center;
             margin-bottom: 0;
             color: $text-primary;
         }
@@ -38,3 +36,5 @@ section#setsUsApart {
     }
     .container { max-width: 1000px; }
 }
+
+.list-divider { margin-top: 2em; }

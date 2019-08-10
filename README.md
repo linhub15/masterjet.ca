@@ -11,3 +11,6 @@ Site uses Jekyll static generation.
 ```
 * Install Jekyll & bundler `gem install jekyll bundler`
 * Run locally dev server `bundle exec jekyll serve`
+
+### Missing Gems
+`bundle install`
