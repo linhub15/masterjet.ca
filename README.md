@@ -14,3 +14,6 @@ Site uses Jekyll static generation.
 
 ### Missing Gems
 `bundle install`
+
+## 301.txt
+Changes to file path names must be reflected in 301.txt
