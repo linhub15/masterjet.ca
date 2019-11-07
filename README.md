@@ -17,3 +17,5 @@ Site uses Jekyll static generation.
 
 ## 301.txt
 Changes to file path names must be reflected in 301.txt
+
+# Cloud cannon automatically builds when pushing to master
