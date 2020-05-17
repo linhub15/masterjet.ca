@@ -15,6 +15,9 @@ Site uses Jekyll static generation.
 ### Missing Gems
 `bundle install`
 
+### Build for Prod
+`bundle exec jekyll build` - builds to the `_site` directory
+
 ## 301.txt
 Changes to file path names must be reflected in 301.txt
 
