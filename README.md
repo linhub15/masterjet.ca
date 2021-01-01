@@ -4,7 +4,7 @@ Site uses Jekyll static generation.
 * Ruby 2.7
 * Jekyll 4.0.1
 * Bundler 2.1.4
-* Bootstrap 4.5
+* Bootstrap 5 (CDN)
 
 ### Developmenet Setup
 * Install Ruby `sudo apt install ruby-full`

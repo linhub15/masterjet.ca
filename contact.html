@@ -14,16 +14,27 @@ permalink: /contact/
     <div class="container py-5">
         <h2 class="mb-5">Get a Quote</h2>
         <form class="mx-auto" style="max-width: 600px;" action="https://formspree.io/f/xzbkkgzq" method="POST">
-            <div class="row my-3 mx-1">
-                <input class="col form-control mr-1" type="text" name="Name" id="Name" placeholder="Full Name" required>
-                <input class="col form-control ml-1" type="text" name="Phone" id="Phone" placeholder="Phone Number" required>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="Email" placeholder="" required>
+                <label for="email">Email</label>
             </div>
-            <div class="row my-3 mx-1">
-                <input class="form-control" type="email" name="Email" id="Email" placeholder="Email">
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" name="Name" placeholder="" required>
+                <label for="name">Name</label>
             </div>
-            <div class="row my-3 mx-1">
-                <textarea class="form-control" name="Description" placeholder="Let us know what you need cleaned..."></textarea>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="phone" name="Phone" placeholder="" required>
+                <label for="phone">Phone</label>
             </div>
+
+            <div class="form-floating mb-3">
+                <textarea class="form-control" style="height: 150px;" id="description" name="Description" placeholder="" required></textarea>
+                <label for="description">Message</label>
+            </div>
+
             <div class="row my-3 mx-1">
                 <button type="submit" class="btn mj-btn mj-btn-primary mx-auto">Submit</button>
             </div>
