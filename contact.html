@@ -12,8 +12,9 @@ permalink: /contact/
 
 <section>
     <div class="container py-5">
-        <h2 class="mb-5">Get a Quote</h2>
-        <form class="mx-auto" style="max-width: 600px;" action="https://formspree.io/f/xzbkkgzq" method="POST">
+        <h2>Need a quote?</h2>
+        <p>We'll do our best to respond to you within 24 hours.</p>
+        <form class="mx-auto mt-5" style="max-width: 600px;" action="https://formspree.io/f/xzbkkgzq" method="POST">
 
             <div class="form-floating mb-3">
                 <input type="email" class="form-control" id="email" name="Email" placeholder="" required>
@@ -31,7 +32,18 @@ permalink: /contact/
             </div>
 
             <div class="form-floating mb-3">
-                <textarea class="form-control" style="height: 150px;" id="description" name="Description" placeholder="" required></textarea>
+                <select class="form-select" id="category" name="Category" aria-label="Category select">
+                    <option value="residential">Residential</option>
+                    <option value="big box store">Retail</option>
+                    <option value="property management">Property management</option>
+                    <option value="industrial">Industrial</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="category">Category</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <textarea class="form-control" style="height: 150px;" id="description" name="Message" placeholder="" required></textarea>
                 <label for="description">Message</label>
             </div>
 
