@@ -1,9 +1,16 @@
 <div class="footer">
     <div class="container pt-5">
-        <div class="row">
-            <a class="btn mj-btn mj-btn-secondary mx-auto" href="tel:{{ site.phone }}">{% include icons/phone.html %} <span>Phone <span itemprop="telephone">{{ site.phone }}</span></span></a>
-            <a class="btn mj-btn mj-btn-secondary mx-auto" href="mailto:{{ site.email }}">{% include icons/envelope.html %} <span>Email <span itemprop="email">{{ site.email }}</span></span></a>
-            <a class="btn mj-btn mj-btn-secondary mx-auto" href="{{site.facebook}}">{% include icons/facebook.html %}<span>Facebook</span></a>
+        <div class="row gx-1">
+
+            <div class="col-md-4">
+                <a class="btn mj-btn mj-btn-secondary" href="tel:{{ site.phone }}">{% include icons/phone.html %} <span>Phone <span itemprop="telephone">{{ site.phone }}</span></span></a>
+            </div>
+            <div class="col-md-5">
+                <a class="btn mj-btn mj-btn-secondary" href="mailto:{{ site.email }}">{% include icons/envelope.html %} <span>Email <span itemprop="email">{{ site.email }}</span></span></a>
+            </div>
+            <div class="col-md-3">
+                <a class="btn mj-btn mj-btn-secondary" href="{{site.facebook}}">{% include icons/facebook.html %}<span>Facebook</span></a>
+            </div>
         </div>
         <div class="row mx-auto">
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
