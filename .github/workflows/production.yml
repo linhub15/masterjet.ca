@@ -13,12 +13,11 @@ jobs:
     steps:
 
     - uses: actions/checkout@v2
-    - name: jekyll build
-      run : |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-    
+
+    - uses:  helaili/jekyll-action@v2
+      with:
+        build_only: true
+
     - uses: actions/upload-artifact@v2
       with:
         name: site
