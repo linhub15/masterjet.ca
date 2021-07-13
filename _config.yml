@@ -10,25 +10,24 @@ keywords: >-
   Grease bin washing, Exterior cleaning, Spring cleanup, Siding washing, 
   Siding cleaning, exterior spring cleaning, painting, painting edmonton,
   grease bin cleaning, gutter cleaning service, storefront cleaning,
-  concrete sealing and cleaning, driveway sealing and cleaning, bin cleaning, restaurant cleaning
-url: "https://masterjet.ca"
+  concrete sealing and cleaning, driveway sealing and cleaning, bin cleaning, restaurant cleaning,
+  garbage bin cleaning, garbage cart
+url: 'https://masterjet.ca'
 phone: 780-239-9979
 email: amawer@shaw.ca
 facebook: https://www.facebook.com/Master-Jet-Pressure-Washing-Ltd-559257914493592/
 
-exclude: 
-  -
-    _site-text
-  -
-    _designs
-    
+exclude:
+  - _site-text
+  - _designs
+
 defaults:
   - # All Pages have layout: default
     scope:
-      path: ""
-      type: "pages"
+      path: ''
+      type: 'pages'
     values:
-      layout: "default"
+      layout: 'default'
 
 plugins:
   - jekyll-sitemap
