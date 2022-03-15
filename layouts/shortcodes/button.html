@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+  {{ partial (.Get "partial") (.Get "btn-text") }}
+{{ else }}
+  {{ partial (.Get 0) }}
+{{ end }}

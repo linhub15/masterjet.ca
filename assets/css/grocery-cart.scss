@@ -1,0 +1,25 @@
+// Photo by Gabrielle Ribeiro on Unsplash
+
+section#grocery-cart {
+    background-image: url("/images/grocery-carts.jpg");
+    background-position-x: center;
+    background-position-y: 45%;
+    background-size: cover;
+    height: 300px;
+}
+#grocery-cart.splash > h1 {
+    color: black;
+    font-weight: 800;
+}
+
+.container-fit {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    max-width: 800px;
+}
+
+.actions {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

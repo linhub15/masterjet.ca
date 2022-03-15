@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+    width: auto;
+    color: $text-secondary;
+    background-color: $bg-secondary;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5 { text-align: center; }
+
+nav.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: $bg-primary;
+
+    a.navbar-brand > img { max-height: 80px; }
+    button > img { color: $near-white; }
+
+    a.nav-link {
+        color: $near-white;
+        transition: ease 0.2s;
+
+        &:hover { color: darken( $near-white, 20%); }
+    }
+}
+
+.splash {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 275px;
+
+    h1 {
+        color: $near-white;
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+    }
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container { max-width: 800px; }
+
+.mj-bg-primary { background-color: $bg-primary; }
+
+.mj-text-near-white { color: $near-white; }
+
+.mj-text-primary { color: $text-primary; }
+
+div.center-btn {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mj-btn {
+    border: 0;
+    border-radius: 45px;
+    min-width: 170px;
+    line-height: 40px;
+    transition: 0.3ms;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    transition: ease 0.2s;
+
+    svg {
+        position: relative;
+        right: 4px;
+    }
+}
+
+.mj-btn-primary {
+    background-color: $btn-primary;
+    color: $near-white;
+
+    &:hover {
+        background-color: darken($btn-primary, 11%);
+        color: $near-white;
+    }
+}
+
+a.mj-btn-secondary {
+    background-color: $btn-secondary;
+    color: $near-white;
+
+    &:hover { background-color: darken($btn-secondary, 11%); }
+}
+
+.footer {
+    line-height: 100px;
+    color: $near-white;
+    background-color: $bg-primary;
+
+    p { margin-bottom: 0; }
+
+    .citation {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 2em;
+        line-height: 1em;
+
+        a {
+            color: gray;
+            text-decoration: none;
+            transition: ease 0.2s;
+            
+            &:hover { color: darken(gray,10%); } 
+        }
+    }
+}

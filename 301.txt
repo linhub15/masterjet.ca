@@ -1,3 +1,0 @@
-/services/ /edmonton-pressure-washing-service/
-/edmonton-pressure-washing-services/ /edmonton-pressure-washing-service/
-/citation.html /citation/

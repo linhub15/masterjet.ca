@@ -1,0 +1,22 @@
+baseURL: https://masterjet.ca
+languageCode: en-us
+title: Master Jet Pressure Washing Ltd.
+disableKinds: ["taxonomy", "taxonomyTerm"]
+
+Params:
+  phone: 780-239-9979
+  email: amawer@shaw.ca
+  facebook: https://www.facebook.com/Master-Jet-Pressure-Washing-Ltd-559257914493592/
+  keywords: >-
+    Pressure washing, building washing, power washing, house washing,
+    Edmonton pressure washing, Edmonton power washing, building pressure washing Edmonton,
+    warehouse pressure washing Edmonton, commercial building washing,
+    Edmonton industrial pressure washing, Edmonton commercial pressure washing,
+    pavement cleaning, concrete cleaning, gum spot removal, dumpster cleaning,
+    compactor cleaning, building exterior cleaning, warehouse pressure washing,
+    residential building cleaning, hot pressure washing, oil stain removal,
+    Grease bin washing, Exterior cleaning, Spring cleanup, Siding washing,
+    Siding cleaning, exterior spring cleaning, painting, painting edmonton,
+    grease bin cleaning, gutter cleaning service, storefront cleaning,
+    concrete sealing and cleaning, driveway sealing and cleaning, bin cleaning, restaurant cleaning,
+    garbage bin cleaning, garbage cart
