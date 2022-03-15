@@ -2,13 +2,12 @@ name: Production deployment
 
 on: 
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:
-    name: Hugo build
     runs-on: ubuntu-latest
     steps:
 
@@ -18,6 +17,9 @@ jobs:
       with:
         hugo-version: "0.94.0"
         extended: true
+    
+    - name: Build
+      run: hugo --minify
 
     - uses: actions/upload-artifact@v2
       with:
