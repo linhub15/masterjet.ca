@@ -2,23 +2,16 @@
   <div class="container pt-5">
     <div class="row gx-1">
       <div class="col-md-4">
-        <a class="btn mj-btn mj-btn-secondary" href="tel:{{ site.Params.Phone }}"
-          >{{ partial "icons/phone.html" }}
-          <span
-            >Phone <span itemprop="telephone">{{ site.Params.phone }}</span></span
-          ></a
-        >
+        <a class="btn mj-btn mj-btn-secondary" href="tel:{{ site.Params.Phone }}">{{ partial "icons/phone.html" }}
+          <span itemprop="telephone">{{ site.Params.phone }}</span></a>
       </div>
       <div class="col-md-5">
-        <a class="btn mj-btn mj-btn-secondary" href="mailto:{{ site.Params.email }}"
-          >{{ partial "icons/envelope.html" }}
-          <span>Email <span itemprop="email">{{ site.Params.email }}</span></span></a
-        >
+        <a class="btn mj-btn mj-btn-secondary" href="mailto:{{ site.Params.email }}">{{ partial "icons/envelope.html" }}
+          <span itemprop="email">{{ site.Params.email }}</span></a>
       </div>
       <div class="col-md-3">
-        <a class="btn mj-btn mj-btn-secondary" href="{{ site.Params.facebook }}"
-          >{{ partial "icons/facebook.html" }}<span>Facebook</span></a
-        >
+        <a class="btn mj-btn mj-btn-secondary" href="{{ site.Params.facebook }}">{{ partial "icons/facebook.html"
+          }}<span>Facebook</span></a>
       </div>
     </div>
     <div class="row mx-auto">
