@@ -1,6 +1,6 @@
 #portfolioSplash { background-image: url('/images/portfolio/portfolio-splash.jpg'); }
 
-#gallery .card {
+.gallery .card {
    max-width: 250px;
    height: 230px;
    overflow: hidden;
@@ -10,6 +10,6 @@
    margin-right: auto;
 }
 
-#gallery img {
+.gallery img {
    width: 100%;
 }
