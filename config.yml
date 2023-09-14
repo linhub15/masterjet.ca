@@ -1,7 +1,7 @@
 baseURL: https://masterjet.ca
 languageCode: en-us
 title: Master Jet Pressure Washing Ltd.
-disableKinds: ["taxonomy", "taxonomyTerm"]
+disableKinds: ["taxonomy"]
 
 Params:
   phone: 780-239-9979
@@ -17,5 +17,5 @@ Params:
     residential building cleaning, hot pressure washing, oil stain removal,
     Grease bin washing, Exterior cleaning, Spring cleanup, Siding washing,
     exterior spring cleaning, painting, painting edmonton, sidewalk cleaning,
-    grease bin cleaning, driveway cleaning, bin cleaning,
-    garbage bin cleaning, cart cleaning, eavestrough cleaning
+    grease bin cleaning, driveway cleaning, bin cleaning, graffiti removal,
+    garbage bin cleaning, cart cleaning, eavestrough cleaning, retail cleaning
