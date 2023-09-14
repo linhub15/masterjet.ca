@@ -1,7 +1,7 @@
 baseURL: https://masterjet.ca
 languageCode: en-us
 title: Master Jet Pressure Washing Ltd.
-disableKinds: ["taxonomy"]
+disableKinds: ["taxonomy", toxonomyTerm]
 
 Params:
   phone: 780-239-9979
